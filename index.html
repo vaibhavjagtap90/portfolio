@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/8a9418ada0.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="IMAGES/Profile Pic final.png" class="logo">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Internship">Internship</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Electronics & telecommunication Engineer</p>
+                <h1>Hi, I'm <span>Vaibhav Jagtap</span><br>From Pune</h1>
+            </div>
+        </div>
+    </div>
+   
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                <img src="IMAGES/AdobeStock_116919499.jpeg" >
+                </div>
+                <div class="about-col-2">
+                
+                <h2 class="sub-title">About Me</h2>
+                <p>Dynamic Electronics & Telecommunication student with
+                    expertise in embedded systems, IoT, and PCB design. Proficient
+                    in C, C++, and Python programming. Eager to apply skills in a
+                    challenging internship at a cutting-edge organization.
+                    
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents  active-tab" id="skills">
+                        <ul>
+
+                            <li><span> Web development</span><br> Web app development</li>
+                             <li><span> App development</span><br> Building Android/iOS apps</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span> 2023 currently</span><br>Third Year Electronics & Telecommunication Engineering <br>Trinity College of Engineering & Research</li>
+                            <li><span> 2021</span><br> HSC Exam <br>Rajiv Gandhi E-Learning School & Junior College </li>
+                            <li><span> 2019</span><br> SSC Exam <br>Madhymik Vidyalaya Katraj</li>
+                        </ul>
+                    </div>
+                    </div>
+                </p>
+            </div>
+        </div>
+    </div>
+ 
+
+  <div id="Internship">
+    <div class="container">
+        <h1 class="sub-title">Internship </h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-microchip"></i>
+                <h2>Embedded System Intern</h2>
+                <p>Key responsibilities:<br>
+                    Engineered software components for automation hardware
+                    such as microcontrollers and sensors.
+                    Collaborated with software, firmware and hardware
+                    engineers to develop complete embedded solutions.
+                    Performed high-level coding in various programming
+                    languages.
+                    </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-shield-halved"></i>
+                <h2>Cyber Security Intern</h2>
+                <p>Key responsibilities:<br>
+                    As a Cyber Security & Ethical Hacking Intern at Technohacks,
+                    fortified defenses, detected vulnerabilities, and enhanced digital
+                    resilience through hands-on experience in diverse security
+                    measures.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                    <i class="fa-regular fa-file-code"></i>
+                    <h2>Web Development Intern</h2>
+                    <p>Key responsibilities:<br>
+                        Actively participate in designing, developing, and maintaining websites
+                        and web applications. This involves writing clean and efficient code using 
+                        languages such as HTML, CSS, JavaScript.</p>
+                    <a href="#">Learn more</a> 
+            </div>
+            </div>
+        </div>
+    </div>
+  </div>  
+ 
+  <div id="Projects">
+    <div class="container">
+        <h1 class="sun-title">Projects</h1>
+
+        <div class="work-list">
+          <div class="work">
+            <img src="IMAGES/smart-street-lighting.jpg" alt="">
+            <div class="layer">
+                <h3>Smart Street Light </h3>
+                
+                    <a herf="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            <a href="#" class="btn">Smart Street Light </a>
+          </div>
+
+          <div class="work">
+            <img src="IMAGES/ss-ys1_featured.webp" alt="">
+            <div class="layer">
+                <h3>Radio Frequency Jammer</h3>
+                
+                    <a herf="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+                <a href="#" class="btn"> Radio Frequency Jammer</a>
+          </div>
+          <div class="work">
+            <img src="IMAGES/solar tracking.jpg" alt="">
+            <div class="layer">
+                <h3>Solar Plant </h3>
+                <p></p>
+                    <a herf="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            <a href="#" class="btn"> Solar Plant Sun Tracking </a>
+          </div>  
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+  </div>
+ <!-- ----------------Contact----------------- -->
+
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>vaibhavjagtap906709@gmail.com</p> 
+                <p><i class="fa-solid fa-square-phone"></i>+919067096225</p>
+                <div class="social-ions">
+                    <a href="https://www.instagram.com/__vaibhav__9067"><i class="fa-brands fa-instagram fa-beat fa-2xl"></i></a>
+                    <a href="https://wa.me/qr/WCMFRKATNBUWG1"><i class="fa-brands fa-whatsapp fa-beat fa-2xl"></i></a>
+                    <a href="https://www.linkedin.com/in/vaibhav-jagtap-85bbb4229"><i class="fa-brands fa-linkedin fa-beat fa-2xl"></i></a>
+                </div>
+                <a href="IMAGES/Vaibhav Jagtap Resume Updated.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Vaibhav Jagtap</p>
+    </div>
+ </div>
+
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+
+    </body>
+</html>
